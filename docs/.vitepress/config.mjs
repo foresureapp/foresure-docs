@@ -122,6 +122,7 @@ export default withMermaid(
     markdown: {
       mermaid: true,
       math: true,
+      linkify: true,
     },
     mermaid: {
       theme: { light: "neutral", dark: "dark" },
@@ -211,13 +212,13 @@ export default withMermaid(
             text: '<img src="/icons/box.svg" class="sidebar-icon" /> Whitepaper',
             items: [
               { text: "👁️ Overview", link: "/whitepaper/" },
-              { text: '📝 The Problem', link: '/whitepaper/problem' },
-              { text: '⚖️ Hybrid CAMM Design', link: '/whitepaper/hybrid-camm-design' },
-              { text: '⚖️ CAMM Math', link: '/whitepaper/camm-math' },
-              { text: '📈 Dynamic Payouts', link: '/whitepaper/dynamic-payouts' },
-              { text: '🔮 Optimistic Oracle', link: '/whitepaper/optimistic-oracle' },
-              { text: '🤹 Multi-Outcome Model', link: '/whitepaper/multi-outcome-model' },
-              { text: '🛡️ Security Model', link: '/whitepaper/security-model' },
+              { text: '📝 The Problem', link: "/whitepaper/problem" },
+              { text: '⚖️ Hybrid CAMM Design', link: "/whitepaper/hybrid-camm-design" },
+              { text: '⚖️ CAMM Math', link: "/whitepaper/camm-math" },
+              { text: '📈 Dynamic Payouts', link: "/whitepaper/dynamic-payouts" },
+              { text: '🔮 Optimistic Oracle', link: "/whitepaper/optimistic-oracle" },
+              { text: '🤹 Multi-Outcome Model', link: "/whitepaper/multi-outcome-model" },
+              { text: '🛡️ Security Model', link: "/whitepaper/security-model" },
             ],
           }
         ],

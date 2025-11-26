@@ -17,7 +17,7 @@ In order to unleash the On-chain potential of predictions markets, last decade w
  Consensus AMM (CAMM) builds on this philosophy and enforces zero-LP-loss, bounded reward function and stable wisdom of crowd probability expectation of the outcomes ensuring robust liquidity, fair payout, and accurate collective inference in decentralized prediction environments.**Foresure** addresses these challenges by introducing a **Hybrid Consensus Automated Market Maker (CAMM)** on the **Base Network**.
 ## Table of Contents
 
-*   [**The Problem**](./abstract.md): A high-level summary of Current Prediction Market Issues, why Foresure?.
+*   [**The Problem**](./problem.md): A high-level summary of Current Prediction Market Issues, why Foresure?.
 *   [**Hybrid CAMM Design**](./hybrid-camm-design.md): Detailed mechanics of our Constant Product Market Maker adapted for prediction markets.
 *   [**CAMM Math**](./camm-math.md): Detailed mechanics of our Constant Product Market Maker adapted for prediction markets.
 *   [**Dynamic Payouts**](./dynamic-payouts.md): The mathematics governing our adaptive reward payouts.
@@ -26,5 +26,5 @@ In order to unleash the On-chain potential of predictions markets, last decade w
 *   [**Security Model**](./security-model.md): Analysis of attack vectors and mitigation strategies.
 
 ::: info Research Oriented
-This section is intended for developers, researchers, and auditors. For a user guide, please visit the [Guide](../guide/create.md) section.
+This section is intended for developers, researchers, and auditors. For a user guide, please visit the [Guide](./guide/create.md) section.
 :::
