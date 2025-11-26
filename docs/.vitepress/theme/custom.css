@@ -1,0 +1,368 @@
+:root {
+  --vp-c-brand: #FFA101 !important;
+  --vp-c-brand-1: #FFA101 !important;
+  --vp-c-brand-2: #FFC04D !important;
+  --vp-c-brand-3: #FFD48A !important;
+  --vp-c-brand-soft: rgba(255, 161, 1, 0.14) !important;
+  --vp-c-brand-hard: rgba(255, 161, 1, 1) !important;
+  --vp-c-brand-soft-hex: #FFF1DA !important;
+
+  --vp-font-family-base: 'SUSE', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif !important;
+  --vp-font-family-mono: 'Azeret Mono', monospace !important;
+
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #FFA101 30%, #FFD54F) !important;
+  --vp-home-hero-name-color: -webkit-linear-gradient(120deg, #FFA101 30%, #FFD54F) !important;
+  --vp-home-hero-image-background-image: none !important;
+  --vp-home-hero-image-filter: none !important;
+}
+
+.VPNavBarTitle .title {
+  font-family: 'Genos', sans-serif !important;
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.5px;
+}
+
+.VPHomeHero .name,
+.VPHero .name {
+  background: linear-gradient(90deg, #FFA101 0%, #FF6A00 50%, #FFD54F 100%);
+  background-size: 200% 200%;
+  animation: vp-hero-grad 1s ease-in-out infinite alternate;
+  font-family: 'Genos', Azeret Mono, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes vp-hero-grad {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.VPHomeHero .tagline .tag-blue {
+  color: #3DA3FF;
+}
+
+.VPHome {
+  position: relative;
+  overflow: hidden;
+}
+
+.VPHome::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(1200px 600px at 10% 10%, rgba(255, 161, 1, 0.18), transparent 60%),
+    radial-gradient(1200px 600px at 90% 80%, rgba(255, 161, 1, 0.14), transparent 60%),
+    linear-gradient(120deg, #ffffff, #fff4e6);
+  filter: saturate(120%);
+  animation: vp-amber-bg 16s ease-in-out infinite alternate;
+  z-index: -1;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+@keyframes vp-amber-bg {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+
+  50% {
+    transform: translate3d(-2%, -1%, 0) scale(1.02);
+  }
+
+  100% {
+    transform: translate3d(2%, 1%, 0) scale(1.03);
+  }
+}
+
+.VPHome .container,
+.VPHome .content {
+  position: relative;
+  z-index: 1;
+}
+
+
+.VPFeatures .item,
+.VPFeature {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.VPFeatures .item:hover,
+.VPFeature:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 161, 1, 0.42);
+  background-color: rgba(255, 161, 1, 0.0);
+}
+
+@keyframes float-logo {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Ensure Hero sits above Features and has enough space */
+.VPHomeHero {
+  position: relative;
+  z-index: 20 !important;
+  padding-bottom: 64px !important;
+}
+
+.VPHomeHero .image {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.VPHomeHero .image img {
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+  object-fit: contain;
+  will-change: transform;
+}
+
+.VPFeatures {
+  position: relative;
+  z-index: 10;
+  margin-top: 24px;
+}
+
+.VPFeatures::before {
+  content: "Features:";
+  display: block;
+  font-family: 'Genos', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 32px;
+  background: linear-gradient(90deg, #FFA101 0%, #FFD54F 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.VPFeature .link-text {
+  color: #FFA101;
+  font-weight: 600;
+  margin-top: 12px;
+  display: inline-block;
+}
+
+.VPFeature .link-text:hover {
+  text-decoration: underline;
+}
+
+.dark .VPHome::before {
+  background: radial-gradient(1200px 600px at 10% 10%, rgba(255, 161, 1, 0.12), transparent 60%),
+    radial-gradient(1200px 600px at 90% 80%, rgba(255, 161, 1, 0.12), transparent 60%),
+    linear-gradient(120deg, #141007, #0c0804);
+  mix-blend-mode: normal;
+}
+
+.dark .VPFeatures .item,
+.dark .VPFeature {
+  background-color: rgba(255, 161, 1, 0.0);
+  border-color: rgba(255, 161, 1, 0.15);
+  /* border-color: transparent !important; */
+}
+
+.dark .VPFeatures .item:hover,
+.dark .VPFeature:hover {
+  background-color: rgba(255, 161, 1, 0.0);
+  border-color: rgba(255, 161, 1, 0.5);
+}
+
+.Layout:has(.VPHome) .VPNav,
+.Layout:has(.VPHome) .VPLocalNav,
+.Layout:has(.VPHome) .VPFooter {
+  background: transparent !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+.Layout:has(.VPHome) .VPNav .container,
+.Layout:has(.VPHome) .VPFooter .container {
+  backdrop-filter: none !important;
+}
+
+.Layout:has(.VPHome) .VPNav {
+  border-bottom: 0 !important;
+
+}
+
+.Layout:has(.VPHome) .VPFooter {
+  border-top: 0 !important;
+}
+
+.VPButton.brand {
+  background-image: linear-gradient(90deg, #FFA101 0%, #FFD54F 100%);
+  color: #1a1a1a;
+  border: 0;
+  box-shadow: 0 10px 20px rgba(255, 161, 1, 0.25), 0 6px 10px rgba(0, 0, 0, 0.12);
+}
+
+.VPButton.brand:hover {
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+}
+
+.VPNavBarMenuLink.active .text,
+.VPNavBarMenuLink .text:hover {
+  background: linear-gradient(90deg, #FFA101 0%, #FFD54F 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Mermaid Diagram Overrides */
+.mermaid svg {
+  background-color: transparent !important;
+  font-family: 'SUSE', sans-serif !important;
+}
+
+/* Nodes */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node polygon,
+.mermaid .node path {
+  fill: rgba(255, 161, 1, 0.1) !important;
+  stroke: #FFA101 !important;
+  stroke-width: 2px !important;
+}
+
+/* Text inside nodes */
+.mermaid .node .label {
+  color: #3b1d01 !important;
+  fill: #3b1d01 !important;
+}
+
+/* Edges / Lines */
+.mermaid .edgePath .path,
+.mermaid .flowchart-link {
+  stroke: #FFA101 !important;
+  stroke-width: 2px !important;
+}
+
+/* Arrowheads */
+.mermaid .marker {
+  fill: #FFA101 !important;
+  stroke: #FFA101 !important;
+}
+
+/* Sequence Diagram Specifics */
+.mermaid .actor {
+  fill: rgba(255, 161, 1, 0.1) !important;
+  stroke: #FFA101 !important;
+}
+
+.mermaid text.actor>tspan {
+  fill: #3b1d01 !important;
+  stroke: none !important;
+}
+
+.mermaid .messageLine0,
+.mermaid .messageLine1 {
+  stroke: #FFA101 !important;
+}
+
+.mermaid .messageText {
+  fill: #3b1d01 !important;
+  stroke: none !important;
+}
+
+.mermaid .loopText,
+.mermaid .loopText>tspan {
+  fill: #3b1d01!important;
+}
+
+.mermaid .loopLine {
+  stroke: #FFA101 !important;
+}
+
+/* Timeline Specifics */
+.mermaid .timeline-node {
+  fill: #FFA101 !important;
+  stroke: #FFA101 !important;
+}
+
+.mermaid .timeline-event-node {
+  fill: #FFA101 !important;
+  stroke: #FFA101 !important;
+}
+
+/* Dark Mode Specific Overrides */
+.dark .mermaid .node .label,
+.dark .mermaid .messageText,
+.dark .mermaid text.actor>tspan {
+  fill: #F8FAFC !important;
+  color: #F8FAFC !important;
+}
+
+.dark .mermaid .edgeLabel {
+  background-color: #0F172A !important;
+  color: #F8FAFC !important;
+}
+
+/* Timeline Specific Overrides - AGGRESSIVE FIX */
+.mermaid g.timeline-graph rect {
+  fill: rgba(255, 161, 1, 0.2) !important;
+  stroke: #FFA101 !important;
+  stroke-width: 2px !important;
+}
+
+.mermaid g.timeline-graph line,
+.mermaid g.timeline-graph path {
+  stroke: #FFA101 !important;
+  stroke-width: 2px !important;
+}
+
+.mermaid g.timeline-graph text {
+  fill: #FF6A00 !important;
+  /* Dark text for Light Mode */
+  font-family: 'SUSE', sans-serif !important;
+  text-shadow: none !important;
+}
+
+/* Dark Mode Text for Timeline */
+.dark .mermaid g.timeline-graph text {
+  fill: #F8FAFC !important;
+  /* White text for Dark Mode */
+}
+
+/* Hide the default colored backgrounds if they are separate paths */
+.mermaid g.timeline-graph .section-0 rect,
+.mermaid g.timeline-graph .section-1 rect,
+.mermaid g.timeline-graph .section-2 rect,
+.mermaid g.timeline-graph .section-3 rect {
+  fill: rgba(255, 161, 1, 0.2) !important;
+  stroke: #FFA101 !important;
+}
+
+.sidebar-icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 4px;
+  margin-top: -3px;
+}
