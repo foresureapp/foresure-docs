@@ -26,5 +26,5 @@ In order to unleash the On-chain potential of predictions markets, last decade w
 *   [**Security Model**](./security-model.md): Analysis of attack vectors and mitigation strategies.
 
 ::: info Research Oriented
-This section is intended for developers, researchers, and auditors. For a user guide, please visit the [Guide](./guide/create.md) section.
+This section is intended for developers, researchers, and auditors. For a user guide, please visit the [Guide](../guide/create.md) section.
 :::

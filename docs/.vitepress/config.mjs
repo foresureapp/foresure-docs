@@ -62,8 +62,8 @@ export default withMermaid(
     description: "Docs site for foresure",
     base: "/",
     lang: "en-US",
-    lastUpdated: false,
-
+    lastUpdated: true,
+    ignoreDeadLinks: true,
     // Sitemap generation
     sitemap: {
       hostname: 'https://docs.foresure.market'
