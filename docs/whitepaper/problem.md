@@ -1,4 +1,4 @@
-# 📝 The Problem
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-article.svg')"></span> The Problem
 
 From the seminal article in 1945 *``The Use of Knowledge in Society,''* Nobel Laureate Friedrich A. Hayek argued that the price system as a mechanism for aggregating and transmitting information dispersed among individuals. 
 There has been continuous attempt of making prediction market to be the next big thing in the decentralized

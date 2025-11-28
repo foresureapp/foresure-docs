@@ -1,4 +1,4 @@
-# 🏛️ Governance
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-account-balance-wallet.svg')"></span> Governance
 
 Foresure is designed to evolve into a fully decentralized protocol owned and operated by its community.
 

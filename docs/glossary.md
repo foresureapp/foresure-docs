@@ -1,4 +1,4 @@
-# 📖 Glossary
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-menu-book.svg')"></span> Glossary
 
 ## A
 

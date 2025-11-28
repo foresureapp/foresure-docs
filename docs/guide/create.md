@@ -1,4 +1,4 @@
-# 🛠️ Create a Market
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-logo-dev.svg')"></span> Create a Market
 
 Foresure allows anyone to create a prediction market. This guide walks you through the parameters and best practices.
 

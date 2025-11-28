@@ -1,4 +1,4 @@
-# 🎨 Creator Earnings
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-brush.svg')"></span> Creator Earnings
 
 Anyone can create a market on Foresure. It's permissionless.
 

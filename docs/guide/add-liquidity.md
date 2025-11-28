@@ -1,4 +1,4 @@
-# 💧 Add Liquidity
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-local-cafe.svg')"></span> Add Liquidity
 
 Liquidity Providers (LPs) are the backbone of Foresure. By adding liquidity, you earn fees from every trade.
 

@@ -1,4 +1,4 @@
-# 🛡️ Security Model
+# <span class="sidebar-icon" style="--icon: url('/icons/shield-check.svg')"></span> Security Model
 
 
 *This documentation is in editing mode. The content here is not finalized.*

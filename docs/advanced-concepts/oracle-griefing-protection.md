@@ -1,4 +1,4 @@
-# 🛡️ Oracle Griefing Protection
+# <span class="sidebar-icon" style="--icon: url('/icons/shield-check.svg')"></span> Oracle Griefing Protection
 
 "Griefing" is an attack where a user maliciously disputes a correct outcome to delay settlement, even if they know they will lose the bond.
 

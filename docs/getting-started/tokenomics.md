@@ -1,4 +1,4 @@
-# 💰 Protocol Economics
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-monetization-on.svg')"></span> Protocol Economics
 
 *This documentation is in editing mode. The content here is not finalized.*
 

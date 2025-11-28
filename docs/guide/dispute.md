@@ -1,4 +1,4 @@
-# ⚖️ Dispute Resolution
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-gpp-good.svg')"></span> Dispute Resolution
 
 Disputes ensure the integrity of the platform. If you see a market resolved incorrectly, you can challenge it.
 

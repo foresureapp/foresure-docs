@@ -1,4 +1,4 @@
-# ⚠️ Risk Disclosures
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-gpp-good.svg')"></span> Risk Disclosures
 
 Foresure is a decentralized protocol. While we strive for security, using DeFi applications involves inherent risks. Please read this section carefully before trading or providing liquidity.
 

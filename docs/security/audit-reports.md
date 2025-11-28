@@ -1,4 +1,4 @@
-# 🕵️ Audit Reports
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-find-in-page.svg')"></span> Audit Reports
 
 Foresure takes security seriously. Our smart contracts have been audited by leading security firms.
 

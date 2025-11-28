@@ -1,4 +1,4 @@
-# 🔮 Optimistic Oracle
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-lightbulb.svg')"></span> Optimistic Oracle
 
 *This documentation is in editing mode. The content here is not finalized.*
 

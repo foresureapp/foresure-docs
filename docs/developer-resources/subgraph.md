@@ -1,4 +1,4 @@
-# 📊 Subgraph & Analytics
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-hub.svg')"></span> Subgraph & Analytics
 
 Foresure provides a powerful GraphQL API via The Graph to query market data, trade history, and liquidity stats.
 

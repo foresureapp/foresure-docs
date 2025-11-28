@@ -1,4 +1,4 @@
-# ✅ Market Resolution
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-check-circle.svg')"></span> Market Resolution
 
 Resolution is the final stage of a prediction market lifecycle.
 

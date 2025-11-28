@@ -1,4 +1,4 @@
-# 🌐 Network Setup: Base
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-hub.svg')"></span> Network Setup: Base
 
 Foresure operates exclusively on the **Base Network**, an L2 built by Coinbase. It offers low fees and high security.
 

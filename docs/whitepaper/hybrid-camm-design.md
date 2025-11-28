@@ -1,4 +1,4 @@
-# ⚖️ Hybrid CAMM Design
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-gpp-good.svg')"></span> Hybrid CAMM Design
 
 Foresure employs a **Hybrid Consensus Automated Market Maker (CAMM)** that combines the predictability of Constant Product Market Makers (CPMM) likw UNISWAP V2 with the stability required for prediction markets.
 

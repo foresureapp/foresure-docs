@@ -1,4 +1,4 @@
-# 🎨 Brand Assets
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-brush.svg')"></span> Brand Assets
 
 Download official Foresure logos, icons, and color palettes. Please do not modify the logos or use them in a way that suggests endorsement without permission.
 

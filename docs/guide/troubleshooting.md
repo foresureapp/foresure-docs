@@ -1,4 +1,4 @@
-# 🔧 Troubleshooting
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-add-task.svg')"></span> Troubleshooting
 
 Encountering an issue? Here are solutions to common problems.
 

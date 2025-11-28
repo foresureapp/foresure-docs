@@ -1,4 +1,4 @@
-# ⛓️ On-Chain Settlement
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-hub.svg')"></span> On-Chain Settlement
 
 Foresure leverages the **Base Network** (an Optimistic Rollup on Ethereum) for final settlement.
 

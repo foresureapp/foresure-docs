@@ -1,4 +1,4 @@
-# ❓ Frequently Asked Questions
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-chat.svg')"></span> Frequently Asked Questions
 
 ## General
 

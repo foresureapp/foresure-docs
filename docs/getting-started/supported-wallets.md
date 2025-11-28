@@ -1,4 +1,4 @@
-# 👛 Supported Wallets
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-account-balance-wallet.svg')"></span> Supported Wallets
 
 Foresure supports a variety of EVM-compatible wallets. For the best experience on Base Network, we recommend the following:
 

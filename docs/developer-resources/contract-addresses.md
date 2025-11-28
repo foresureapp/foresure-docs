@@ -1,4 +1,4 @@
-# 📝 Contract Addresses
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-article.svg')"></span> Contract Addresses
 
 Here are the official deployed contract addresses for Foresure on Base Mainnet and Base Sepolia (Testnet).
 

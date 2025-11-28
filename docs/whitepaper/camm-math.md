@@ -1,4 +1,4 @@
-# ⚖️ CAMM Math
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-gpp-good.svg')"></span> CAMM Math
 This section contains lots of math. 
 
 ## Pron Initialization and Price Peg

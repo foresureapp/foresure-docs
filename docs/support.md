@@ -1,4 +1,4 @@
-# 📞 Support
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-chat.svg')"></span> Support
 
 Need help? We are here for you.
 

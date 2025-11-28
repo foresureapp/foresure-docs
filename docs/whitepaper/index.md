@@ -1,4 +1,4 @@
-# 📄 Foresure Whitepaper
+# <span class="sidebar-icon" style="--icon: url('/icons/box.svg')"></span> Foresure Whitepaper
 
 **Version 1.0**
 

@@ -1,4 +1,4 @@
-# 🚀 Introduction to Foresure
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-moving.svg')"></span> Introduction to Foresure
 
 Welcome to **Foresure**, the next-generation multi-outcome prediction market platform built on the **Base Network**. 
 
@@ -12,16 +12,16 @@ We are still refining our documentation to give you the best guidance possible. 
 Let us jump in!
 
 
-## 🌟 Platform Overview
+##  Platform Overview
 
 Foresure isn't just another betting site or prediction market platform; We are premissionless decentralized platform. You can create markets for whatever you like! By combining the speed of Web2 with the trustless security of Web3, we offer a seamless, mobile-first experience that feels like a traditional app but runs entirely on smart contracts.
 
 | Feature | Description |
 | :--- | :--- |
-| **⚡ Base Network** | Lightning-fast transactions and near-zero gas fees. |
-| **🧠 Multi-Outcome** | Trade on markets with >2 outcomes (e.g., "Who will win the election?" vs just Yes/No). |
-| **💧 Consensus AMM** | Deep liquidity and reduced slippage using our custom CAMM + Stablecoin invariant. |
-| **📱 Mobile First** | A Progressive Web App (PWA) designed for trading on the go. |
+| ** Base Network** | Lightning-fast transactions and near-zero gas fees. |
+| ** Multi-Outcome** | Trade on markets with >2 outcomes (e.g., "Who will win the election?" vs just Yes/No). |
+| ** Consensus AMM** | Deep liquidity and reduced slippage using our custom CAMM + Stablecoin invariant. |
+| ** Mobile First** | A Progressive Web App (PWA) designed for trading on the go. |
 
 ##  Unique Value Proposition
 
@@ -32,13 +32,13 @@ Foresure isn't just another betting site or prediction market platform; We are p
 3.  **Jury System**: Community-led dispute resolution ensures fairness without centralization.
 4.  **Truly Permissionless**: No need API or third party. All of our transactions are in BASE smart contracts. If you are developer, build to integrate prediction markets into your own dApps.
 
-## 🏗️ Architecture
+##  Architecture
 
 ::: info Hybrid Design
 Foresure combines a high-performance off-chain matching engine for discovery with on-chain settlement for security.
 :::
 
-### 🎬 Animated Architecture
+###  Animated Architecture
 <AnimatedArchitecture />
 
 ```mermaid
@@ -51,9 +51,9 @@ graph LR
     F -->|Updates| B
 ```
 
-## 🗺️ User Journey
+##  User Journey
 
-### 🎬 Animated Timeline
+###  Animated Timeline
 <AnimatedTimeline />
 
 ```mermaid
@@ -67,7 +67,7 @@ graph TD
     G --> H[🎉 Position Open]
 ```
 
-## 📚 Key Features 
+## Key Features 
 
 *   **Market Creation**: Users can create Prediction Markets with multiple mutually exclusive outcomes.
 *   **Trading**: Buy and sell outcome tokens. Prices are dynamic based on supply/demand (CAMM).

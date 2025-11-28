@@ -1,4 +1,4 @@
-# 🤹 Multi-Outcome Model
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-filter-vintage.svg')"></span> Multi-Outcome Model
 
 While binary (Yes/No) markets are simple, the real world is often non-binary. Foresure supports **Categorical Markets** with $N$ mutually exclusive outcomes.
 

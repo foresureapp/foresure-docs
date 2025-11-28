@@ -8,45 +8,45 @@ const resourcesSidebar = [
     text: "Resources",
     items: [
       {
-        text: "🛠️ Developer Resources",
+        text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-logo-dev.svg\')"></span> Developer Resources',
         collapsed: false,
         items: [
-          { text: "📝 Contract Addresses", link: "/developer-resources/contract-addresses" },
-          { text: "💻 SDK Reference", link: "/developer-resources/sdk-reference" },
-          { text: "📊 Subgraph & Analytics", link: "/developer-resources/subgraph" },
-          { text: "🔮 Integration Oracle", link: "/developer-resources/integration-oracle" },
+          { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-article.svg\')"></span> Contract Addresses', link: "/developer-resources/contract-addresses" },
+          { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-logo-dev.svg\')"></span> SDK Reference', link: "/developer-resources/sdk-reference" },
+          { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-hub.svg\')"></span> Subgraph & Analytics', link: "/developer-resources/subgraph" },
+          { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-lightbulb.svg\')"></span> Integration Oracle', link: "/developer-resources/integration-oracle" },
         ]
       },
       {
-        text: "🏛️ Governance",
+        text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-account-balance-wallet.svg\')"></span> Governance',
         collapsed: true,
         items: [
-          { text: "📜 Overview", link: "/governance/" },
+          { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-menu-book.svg\')"></span> Overview', link: "/governance/" },
         ]
       },
       {
-        text: "🛡️ Security",
+        text: '<span class="sidebar-icon" style="--icon: url(\'/icons/shield-check.svg\')"></span> Security',
         collapsed: true,
         items: [
-          { text: "⚠️ Risk Disclosures", link: "/security/risks" },
-          { text: "🕵️ Audit Reports", link: "/security/audit-reports" },
-          { text: "🐛 Bug Bounty", link: "/security/bug-bounty" },
-          { text: "🔌 Failure Modes", link: "/security/failure-modes" },
+          { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-gpp-good.svg\')"></span> Risk Disclosures', link: "/security/risks" },
+          { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-find-in-page.svg\')"></span> Audit Reports', link: "/security/audit-reports" },
+          { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/bug.svg\')"></span> Bug Bounty', link: "/security/bug-bounty" },
+          { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-bolt.svg\')"></span> Failure Modes', link: "/security/failure-modes" },
         ]
       },
       {
-        text: "⚖️ Legal",
+        text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-gpp-good.svg\')"></span> Legal',
         collapsed: true,
         items: [
-          { text: "📜 Terms of Service", link: "/legal/terms" },
-          { text: "🔒 Privacy Policy", link: "/legal/privacy" },
+          { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-menu-book.svg\')"></span> Terms of Service', link: "/legal/terms" },
+          { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/shield-check.svg\')"></span> Privacy Policy', link: "/legal/privacy" },
         ]
       },
       {
-        text: "🎨 Brand Assets",
+        text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-brush.svg\')"></span> Brand Assets',
         collapsed: true,
         items: [
-          { text: "🖌️ Logos & Colors", link: "/resources/brand-assets" },
+          { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-brush.svg\')"></span> Logos & Colors', link: "/resources/brand-assets" },
         ]
       }
     ]
@@ -194,64 +194,64 @@ export default withMermaid(
       sidebar: {
         "/getting-started/": [
           {
-            text: "🚀 Get Started",
+            text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-moving.svg\')"></span> Get Started',
             items: [
-              { text: "👋 Introduction", link: "/getting-started/" },
-              { text: "🧠 Prediction Markets 101", link: "/getting-started/prediction-markets-101" },
-              { text: "🆚 Foresure vs Others", link: "/getting-started/comparisons" },
-              { text: "⚡ Quick Start", link: "/getting-started/quick-start" },
-              { text: "👛 Supported Wallets", link: "/getting-started/supported-wallets" },
-              { text: "🌐 Network Setup", link: "/getting-started/network-setup" },
-              { text: "🗺️ Roadmap", link: "/getting-started/roadmap" },
-              { text: "💰 Protocol Economics", link: "/getting-started/tokenomics" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-article.svg\')"></span> Introduction', link: "/getting-started/" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-lightbulb.svg\')"></span> Prediction Markets 101', link: "/getting-started/prediction-markets-101" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ph--arrows-clockwise-duotone.svg\')"></span> Foresure vs Others', link: "/getting-started/comparisons" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/zap.svg\')"></span> Quick Start', link: "/getting-started/quick-start" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-account-balance-wallet.svg\')"></span> Supported Wallets', link: "/getting-started/supported-wallets" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-hub.svg\')"></span> Network Setup', link: "/getting-started/network-setup" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-moving.svg\')"></span> Roadmap', link: "/getting-started/roadmap" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-monetization-on.svg\')"></span> Protocol Economics', link: "/getting-started/tokenomics" },
             ],
           },
         ],
         "/whitepaper/": [
           {
-            text: '<img src="/icons/box.svg" class="sidebar-icon" /> Whitepaper',
+            text: '<span class="sidebar-icon" style="--icon: url(\'/icons/box.svg\')"></span> Whitepaper',
             items: [
-              { text: "👁️ Overview", link: "/whitepaper/" },
-              { text: '📝 The Problem', link: "/whitepaper/problem" },
-              { text: '⚖️ Hybrid CAMM Design', link: "/whitepaper/hybrid-camm-design" },
-              { text: '⚖️ CAMM Math', link: "/whitepaper/camm-math" },
-              { text: '📈 Dynamic Payouts', link: "/whitepaper/dynamic-payouts" },
-              { text: '🔮 Optimistic Oracle', link: "/whitepaper/optimistic-oracle" },
-              { text: '🤹 Multi-Outcome Model', link: "/whitepaper/multi-outcome-model" },
-              { text: '🛡️ Security Model', link: "/whitepaper/security-model" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-article.svg\')"></span> Overview', link: "/whitepaper/" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-article.svg\')"></span> The Problem', link: "/whitepaper/problem" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-gpp-good.svg\')"></span> Hybrid CAMM Design', link: "/whitepaper/hybrid-camm-design" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/functions.svg\')"></span> CAMM Math', link: "/whitepaper/camm-math" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-monetization-on.svg\')"></span> Dynamic Payouts', link: "/whitepaper/dynamic-payouts" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-lightbulb.svg\')"></span> Optimistic Oracle', link: "/whitepaper/optimistic-oracle" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-filter-vintage.svg\')"></span> Multi-Outcome Model', link: "/whitepaper/multi-outcome-model" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/shield-check.svg\')"></span> Security Model', link: "/whitepaper/security-model" },
             ],
           }
         ],
         "/guide/": [
           {
-            text: "📘 User Guide",
+            text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-menu-book.svg\')"></span> User Guide',
             collapsible: true,
             items: [
-              { text: "📈 Trading Guide", link: "/guide/trading" },
-              { text: "💸 Managing Funds", link: "/guide/funds" },
-              { text: "🛠️ Create Market", link: "/guide/create" },
-              { text: "🎨 Creator Earnings", link: "/guide/creator-earnings" },
-              { text: "💧 Add Liquidity", link: "/guide/add-liquidity" },
-              { text: "⚖️ Dispute Resolution", link: "/guide/dispute" },
-              { text: "✅ Market Resolution", link: "/guide/resolve" },
-              { text: "🧑‍⚖️ Become a Juror", link: "/guide/become-jury" },
-              { text: "🔧 Troubleshooting", link: "/guide/troubleshooting" },
-              { text: "📞 Support", link: "/support" },
-              { text: "❓ FAQ", link: "/faq" },
-              { text: "📖 Glossary", link: "/glossary" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-monetization-on.svg\')"></span> Trading Guide', link: "/guide/trading" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-monetization-on.svg\')"></span> Managing Funds', link: "/guide/funds" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-add-task.svg\')"></span> Create Market', link: "/guide/create" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-brush.svg\')"></span> Creator Earnings', link: "/guide/creator-earnings" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-local-cafe.svg\')"></span> Add Liquidity', link: "/guide/add-liquidity" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-gpp-good.svg\')"></span> Dispute Resolution', link: "/guide/dispute" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-check-circle.svg\')"></span> Market Resolution', link: "/guide/resolve" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-local-police.svg\')"></span> Become a Juror', link: "/guide/become-jury" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-add-task.svg\')"></span> Troubleshooting', link: "/guide/troubleshooting" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-chat.svg\')"></span> Support', link: "/support" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-chat.svg\')"></span> FAQ', link: "/faq" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-menu-book.svg\')"></span> Glossary', link: "/glossary" },
             ],
           },
         ],
         "/advanced-concepts/": [
           {
-            text: "🧠 Advanced Concepts",
+            text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-lightbulb.svg\')"></span> Advanced Concepts',
             collapsible: true,
             items: [
-              { text: "🧮 Dynamic Payout Math", link: "/advanced-concepts/dynamic-payout-math" },
-              { text: "⚙️ Hybrid AMM Mechanics", link: "/advanced-concepts/hybrid-amm-mechanics" },
-              { text: "🛡️ Griefing Protection", link: "/advanced-concepts/oracle-griefing-protection" },
-              { text: "⛓️ On-Chain Settlement", link: "/advanced-concepts/on-chain-settlement" },
-              { text: "💧 Liquidity Impact", link: "/advanced-concepts/liquidity-impact" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/functions.svg\')"></span> Dynamic Payout Math', link: "/advanced-concepts/dynamic-payout-math" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-hub.svg\')"></span> Hybrid AMM Mechanics', link: "/advanced-concepts/hybrid-amm-mechanics" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/shield-check.svg\')"></span> Griefing Protection', link: "/advanced-concepts/oracle-griefing-protection" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-hub.svg\')"></span> On-Chain Settlement', link: "/advanced-concepts/on-chain-settlement" },
+              { text: '<span class="sidebar-icon" style="--icon: url(\'/icons/ic--baseline-local-cafe.svg\')"></span> Liquidity Impact', link: "/advanced-concepts/liquidity-impact" },
             ],
           },
         ],

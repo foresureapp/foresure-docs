@@ -1,4 +1,4 @@
-# 🔒 Privacy Policy
+# <span class="sidebar-icon" style="--icon: url('/icons/shield-check.svg')"></span> Privacy Policy
 
 **Last Updated: November 2024**
 

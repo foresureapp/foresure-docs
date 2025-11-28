@@ -1,4 +1,4 @@
-# ⚠️ Failure Modes
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-gpp-good.svg')"></span> Failure Modes
 
 We have designed the system to be resilient, but we also plan for the worst.
 

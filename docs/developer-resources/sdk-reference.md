@@ -1,4 +1,4 @@
-# 💻 SDK Reference
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-logo-dev.svg')"></span> SDK Reference
 
 The `@foresure/sdk` library allows you to interact with the protocol programmatically.
 

@@ -1,4 +1,4 @@
-# 🗺️ Roadmap
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-moving.svg')"></span> Roadmap
 
 *This documentation is in editing mode. The content here is not finalized.*
 

@@ -1,4 +1,4 @@
-# 🐛 Bug Bounty Program
+# <span class="sidebar-icon" style="--icon: url('/icons/bug.svg')"></span> Bug Bounty Program
 
 We invite whitehat hackers to inspect our code and report vulnerabilities.
 

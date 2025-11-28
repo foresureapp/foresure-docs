@@ -1,4 +1,4 @@
-# 🧮 Dynamic Payout Math
+# <span class="sidebar-icon" style="--icon: url('/icons/functions.svg')"></span> Dynamic Payout Math
 
 This section dives deep into the mathematical formulas that power Foresure's adaptive reward system.
 

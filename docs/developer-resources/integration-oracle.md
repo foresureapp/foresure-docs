@@ -1,4 +1,4 @@
-# 🔮 Integration: Custom Oracle
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-lightbulb.svg')"></span> Integration: Custom Oracle
 
 For advanced users, you can integrate your own data feeds into Foresure markets.
 

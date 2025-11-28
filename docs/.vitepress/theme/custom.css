@@ -360,9 +360,24 @@
 
 .sidebar-icon {
   display: inline-block;
-  width: 18px;
-  height: 18px;
-  vertical-align: middle;
-  margin-right: 4px;
-  margin-top: -3px;
+  width: 1.25rem;
+  height: 1.25rem;
+  vertical-align: text-bottom;
+  margin-right: 6px;
+  background-color: #FFA101;
+  -webkit-mask-image: var(--icon);
+  mask-image: var(--icon);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+h1 .sidebar-icon {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 12px;
+  vertical-align: bottom;
 }

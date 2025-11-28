@@ -1,4 +1,4 @@
-# ⚙️ Hybrid AMM Mechanics
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-hub.svg')"></span> Hybrid AMM Mechanics
 
 Foresure's "Hybrid" nature comes from blending the **Constant Product Market Maker (CPMM)** model (popularized by Uniswap) with the specific needs of prediction markets (binary/categorical outcomes).
 

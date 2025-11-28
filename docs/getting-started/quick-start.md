@@ -1,4 +1,4 @@
-# ⚡ Quick Start Guide
+# <span class="sidebar-icon" style="--icon: url('/icons/zap.svg')"></span> Quick Start Guide
 
 *This documentation is in editing mode. The content here is not finalized.*
 

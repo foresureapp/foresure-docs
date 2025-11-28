@@ -1,4 +1,4 @@
-# 📈 Trading Guide
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-monetization-on.svg')"></span> Trading Guide
 
 Everything you need to know about executing trades on Foresure.
 

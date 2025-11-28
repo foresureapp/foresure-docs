@@ -1,4 +1,4 @@
-# 📜 Terms of Service
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-menu-book.svg')"></span> Terms of Service
 
 **Last Updated: November 2024**
 

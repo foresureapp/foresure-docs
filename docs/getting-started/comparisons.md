@@ -1,4 +1,4 @@
-# 🆚 Foresure vs. Others
+# <span class="sidebar-icon" style="--icon: url('/icons/ph--arrows-clockwise-duotone.svg')"></span> Foresure vs. Others
 
 How does Foresure stack up against the competition?
 

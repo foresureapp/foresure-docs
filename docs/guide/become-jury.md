@@ -1,4 +1,4 @@
-# 🧑‍⚖️ Become a Juror
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-local-police.svg')"></span> Become a Juror
 
 Join the Foresure Jury to help adjudicate disputes and earn rewards.
 

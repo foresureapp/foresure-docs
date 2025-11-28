@@ -1,4 +1,4 @@
-# 💧 Liquidity Impact
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-local-cafe.svg')"></span> Liquidity Impact
 
 Liquidity depth directly affects the trading experience.
 

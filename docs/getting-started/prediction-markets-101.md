@@ -1,4 +1,4 @@
-# 🧠 Prediction Markets 101
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-lightbulb.svg')"></span> Prediction Markets 101
 
 ## What is a Prediction Market?
 

@@ -1,4 +1,4 @@
-# 📈 Dynamic Payouts
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-monetization-on.svg')"></span> Dynamic Payouts
 
 *This documentation is in editing mode. The content here is not finalized.*
 

@@ -1,4 +1,4 @@
-# 💸 Managing Funds
+# <span class="sidebar-icon" style="--icon: url('/icons/ic--baseline-monetization-on.svg')"></span> Managing Funds
 
 Foresure is **Non-Custodial**. This means we never touch your money until you authorize a trade.
 
