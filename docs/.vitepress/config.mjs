@@ -174,14 +174,15 @@ export default withMermaid(
           items: [
             { text: "Whitepaper", link: "/whitepaper/", activeMatch: "^/whitepaper/" },
             { text: "User Guide", link: "/guide/create", activeMatch: "^/guide/" },
-            
+
             {
               text: "Resources",
               link: "/developer-resources/contract-addresses",
               activeMatch: "^/(developer-resources|governance|security|resources|legal)/"
             },
           ]
-        }
+        },
+        { text: "Foresure", link: "https://foresure.app" }
       ],
       socialLinks: [
         { icon: "github", link: "https://github.com/foresureapp" },
